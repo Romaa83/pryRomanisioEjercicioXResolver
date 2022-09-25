@@ -1,0 +1,14 @@
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\bin\Debug\pryRomanisioSP1EPR.exe.config
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\bin\Debug\pryRomanisioSP1EPR.exe
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\bin\Debug\pryRomanisioSP1EPR.pdb
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.csproj.AssemblyReference.cache
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.csproj.SuggestedBindingRedirects.cache
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmClientes.resources
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmMenu.resources
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmVendedor.resources
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.Properties.Resources.resources
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.csproj.GenerateResource.cache
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.csproj.CoreCompileInputs.cache
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.exe
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.pdb
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmVentas.resources
