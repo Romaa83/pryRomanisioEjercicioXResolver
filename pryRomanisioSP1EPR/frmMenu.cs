@@ -34,5 +34,23 @@ namespace pryRomanisioSP1EPR
             frmVentas frmVentas = new frmVentas();
             frmVentas.ShowDialog();
         }
+
+        private void vendedorToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmConsultaVendedor frmConsultaVendedor = new frmConsultaVendedor();
+            frmConsultaVendedor.ShowDialog();
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultaClientes frmConsultaClientes = new frmConsultaClientes();
+            frmConsultaClientes.ShowDialog();
+        }
+
+        private void ventasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmConsultaVentas frmConsultaVentas = new frmConsultaVentas();
+            frmConsultaVentas.ShowDialog();
+        }
     }
 }

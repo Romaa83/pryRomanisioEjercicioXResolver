@@ -34,7 +34,7 @@ namespace pryRomanisioSP1EPR
             idVendedor = Convert.ToInt32(nudIDVendedor.Text);
             NombreVendedor = txtNombreVendedor.Text;
 
-            StreamWriter swVendedo = new StreamWriter("./Vendedor.txt");
+            StreamWriter swVendedo = new StreamWriter("./Vendedor.txt", true);
             swVendedo.Close();
 
             switch (cboActivo.Text)
@@ -65,6 +65,11 @@ namespace pryRomanisioSP1EPR
                 {
                     MessageBox.Show("Esta ID ya esta registrada");
                     bandera = true;
+                    nudIDVendedor.Value = 0;
+                    txtNombreVendedor.Text = "";
+                    cboActivo.Items.Clear();
+                    cboCobra.Items.Clear();
+                    nudIDVendedor.Focus();
                 }
             }
             srVendedor.Close();
@@ -72,12 +77,17 @@ namespace pryRomanisioSP1EPR
             {
                 if (idVendedor != 0 && NombreVendedor != "" && Activo != " " && CobraComision != "")
                 {
-                    using (StreamWriter swVendedor = File.AppendText("./Vendedor.txt"))
-                    {
+                    StreamWriter swVendedor = new StreamWriter("./Vendedor.txt", true);
+                    
                         swVendedor.WriteLine(idVendedor + "," + NombreVendedor + "," + Activo + "," + CobraComision);
                         swVendedor.Close();
                         MessageBox.Show("Datos ingresados con exito");
-                    }
+
+                        nudIDVendedor.Value = 0;
+                        txtNombreVendedor.Text = "";
+                        cboActivo.Items.Clear();
+                        cboCobra.Items.Clear();
+                    
                 }
                 else
                 {

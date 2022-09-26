@@ -65,6 +65,11 @@
             // 
             this.nudIDVendedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudIDVendedor.Location = new System.Drawing.Point(255, 46);
+            this.nudIDVendedor.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.nudIDVendedor.Name = "nudIDVendedor";
             this.nudIDVendedor.Size = new System.Drawing.Size(120, 31);
             this.nudIDVendedor.TabIndex = 4;
@@ -74,7 +79,7 @@
             this.txtNombreVendedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreVendedor.Location = new System.Drawing.Point(253, 94);
             this.txtNombreVendedor.Name = "txtNombreVendedor";
-            this.txtNombreVendedor.Size = new System.Drawing.Size(120, 31);
+            this.txtNombreVendedor.Size = new System.Drawing.Size(227, 31);
             this.txtNombreVendedor.TabIndex = 5;
             // 
             // lblActivo
@@ -100,7 +105,7 @@
             // btnCrear
             // 
             this.btnCrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrear.Location = new System.Drawing.Point(271, 305);
+            this.btnCrear.Location = new System.Drawing.Point(378, 313);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(102, 35);
             this.btnCrear.TabIndex = 8;
@@ -138,7 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(394, 360);
+            this.ClientSize = new System.Drawing.Size(492, 360);
             this.Controls.Add(this.cboCobra);
             this.Controls.Add(this.cboActivo);
             this.Controls.Add(this.btnCrear);

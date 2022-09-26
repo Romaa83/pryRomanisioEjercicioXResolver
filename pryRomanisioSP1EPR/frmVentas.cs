@@ -52,9 +52,11 @@ namespace pryRomanisioSP1EPR
         private void btnCargar_Click(object sender, EventArgs e)
         {
             StreamWriter swVentas = new StreamWriter("./Ventas.txt",true);
-            swVentas.WriteLine(cboCliente.Text + "," + cboVendedor.Text + "," + cboTipoFactura.Text + "," + nudFactura.Text + "," + nudMonto.Text);
+            swVentas.WriteLine(cboCliente.Text + "," + cboVendedor.Text + "," + dtpFecha.Text + "," + cboTipoFactura.Text + "," + nudFactura.Text + "," + nudMonto.Text);
             swVentas.Close();
             MessageBox.Show("Datos ingresados con exito");
+            nudFactura.Value = 0;
+            nudMonto.Value = 0;
         }
     }
 }

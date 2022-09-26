@@ -52,6 +52,9 @@ namespace pryRomanisioSP1EPR
                         swCliente.WriteLine(varIDCliente + "," + varNombreCliente);
                         swCliente.Close();
                         MessageBox.Show("Agregado con exito");
+                        nudIDCliente.Value = 0;
+                        txtNombre.Text = "";
+                        txtNombre.Focus();
                         }
                     }
                 }         

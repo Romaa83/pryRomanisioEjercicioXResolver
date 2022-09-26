@@ -39,6 +39,8 @@
             this.cboTipoFactura = new System.Windows.Forms.ComboBox();
             this.nudFactura = new System.Windows.Forms.NumericUpDown();
             this.nudMonto = new System.Windows.Forms.NumericUpDown();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
+            this.lblFecha = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nudFactura)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMonto)).BeginInit();
             this.SuspendLayout();
@@ -67,7 +69,7 @@
             // 
             this.lblFacturaTipo.AutoSize = true;
             this.lblFacturaTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFacturaTipo.Location = new System.Drawing.Point(21, 115);
+            this.lblFacturaTipo.Location = new System.Drawing.Point(21, 173);
             this.lblFacturaTipo.Name = "lblFacturaTipo";
             this.lblFacturaTipo.Size = new System.Drawing.Size(185, 25);
             this.lblFacturaTipo.TabIndex = 2;
@@ -77,7 +79,7 @@
             // 
             this.lblFacturaNumero.AutoSize = true;
             this.lblFacturaNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFacturaNumero.Location = new System.Drawing.Point(21, 160);
+            this.lblFacturaNumero.Location = new System.Drawing.Point(21, 226);
             this.lblFacturaNumero.Name = "lblFacturaNumero";
             this.lblFacturaNumero.Size = new System.Drawing.Size(220, 25);
             this.lblFacturaNumero.TabIndex = 3;
@@ -87,7 +89,7 @@
             // 
             this.lblMonto.AutoSize = true;
             this.lblMonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonto.Location = new System.Drawing.Point(21, 205);
+            this.lblMonto.Location = new System.Drawing.Point(21, 271);
             this.lblMonto.Name = "lblMonto";
             this.lblMonto.Size = new System.Drawing.Size(84, 25);
             this.lblMonto.TabIndex = 4;
@@ -96,7 +98,7 @@
             // btnCargar
             // 
             this.btnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargar.Location = new System.Drawing.Point(313, 270);
+            this.btnCargar.Location = new System.Drawing.Point(313, 336);
             this.btnCargar.Name = "btnCargar";
             this.btnCargar.Size = new System.Drawing.Size(94, 34);
             this.btnCargar.TabIndex = 5;
@@ -126,13 +128,14 @@
             // 
             // cboTipoFactura
             // 
+            this.cboTipoFactura.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTipoFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTipoFactura.FormattingEnabled = true;
             this.cboTipoFactura.Items.AddRange(new object[] {
             "A",
             "B",
             "C"});
-            this.cboTipoFactura.Location = new System.Drawing.Point(261, 112);
+            this.cboTipoFactura.Location = new System.Drawing.Point(261, 170);
             this.cboTipoFactura.Name = "cboTipoFactura";
             this.cboTipoFactura.Size = new System.Drawing.Size(146, 33);
             this.cboTipoFactura.TabIndex = 8;
@@ -141,7 +144,12 @@
             // nudFactura
             // 
             this.nudFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudFactura.Location = new System.Drawing.Point(261, 158);
+            this.nudFactura.Location = new System.Drawing.Point(261, 224);
+            this.nudFactura.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.nudFactura.Name = "nudFactura";
             this.nudFactura.Size = new System.Drawing.Size(144, 31);
             this.nudFactura.TabIndex = 9;
@@ -149,16 +157,43 @@
             // nudMonto
             // 
             this.nudMonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudMonto.Location = new System.Drawing.Point(261, 203);
+            this.nudMonto.Location = new System.Drawing.Point(261, 269);
+            this.nudMonto.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.nudMonto.Name = "nudMonto";
             this.nudMonto.Size = new System.Drawing.Size(145, 31);
             this.nudMonto.TabIndex = 10;
+            // 
+            // dtpFecha
+            // 
+            this.dtpFecha.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFecha.Location = new System.Drawing.Point(261, 116);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(145, 31);
+            this.dtpFecha.TabIndex = 11;
+            // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.Location = new System.Drawing.Point(21, 122);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(84, 25);
+            this.lblFecha.TabIndex = 12;
+            this.lblFecha.Text = "Fecha:";
             // 
             // frmVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(431, 330);
+            this.ClientSize = new System.Drawing.Size(431, 386);
+            this.Controls.Add(this.lblFecha);
+            this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.nudMonto);
             this.Controls.Add(this.nudFactura);
             this.Controls.Add(this.cboTipoFactura);
@@ -193,5 +228,7 @@
         private System.Windows.Forms.ComboBox cboTipoFactura;
         private System.Windows.Forms.NumericUpDown nudFactura;
         private System.Windows.Forms.NumericUpDown nudMonto;
+        private System.Windows.Forms.DateTimePicker dtpFecha;
+        private System.Windows.Forms.Label lblFecha;
     }
 }

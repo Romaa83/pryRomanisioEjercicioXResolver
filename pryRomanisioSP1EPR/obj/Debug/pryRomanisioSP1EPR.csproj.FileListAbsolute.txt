@@ -12,3 +12,6 @@ D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.csproj.Cor
 D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.exe
 D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.pdb
 D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmVentas.resources
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmConsultaVendedor.resources
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmConsultaClientes.resources
+D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmConsultaVentas.resources

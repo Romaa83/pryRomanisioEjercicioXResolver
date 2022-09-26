@@ -61,13 +61,13 @@
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.Location = new System.Drawing.Point(162, 94);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(100, 31);
+            this.txtNombre.Size = new System.Drawing.Size(209, 31);
             this.txtNombre.TabIndex = 3;
             // 
             // nudIDCliente
             // 
             this.nudIDCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudIDCliente.Location = new System.Drawing.Point(142, 30);
+            this.nudIDCliente.Location = new System.Drawing.Point(162, 30);
             this.nudIDCliente.Name = "nudIDCliente";
             this.nudIDCliente.Size = new System.Drawing.Size(120, 31);
             this.nudIDCliente.TabIndex = 4;
@@ -75,7 +75,7 @@
             // btnCrear
             // 
             this.btnCrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrear.Location = new System.Drawing.Point(168, 165);
+            this.btnCrear.Location = new System.Drawing.Point(304, 161);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(94, 35);
             this.btnCrear.TabIndex = 5;
@@ -87,7 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(316, 221);
+            this.ClientSize = new System.Drawing.Size(420, 221);
             this.Controls.Add(this.btnCrear);
             this.Controls.Add(this.nudIDCliente);
             this.Controls.Add(this.txtNombre);
