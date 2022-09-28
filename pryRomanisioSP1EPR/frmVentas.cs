@@ -27,15 +27,18 @@ namespace pryRomanisioSP1EPR
         {
             StreamWriter swVent = new StreamWriter("./Ventas.txt", true);
             swVent.Close();
+            char separador = Convert.ToChar(",");
             if (File.Exists("./cliente.txt") && File.Exists("./Vendedor.txt"))
             {
-                char separador = Convert.ToChar(",");
                 StreamReader srClientes = new StreamReader("./cliente.txt");
                 StreamReader srVendedor = new StreamReader("./Vendedor.txt");
                 while (!srClientes.EndOfStream)
                 {
                     string[] arrayClientes = srClientes.ReadLine().Split(separador);
                     cboCliente.Items.Add(arrayClientes[0]);
+                }
+                while (!srVendedor.EndOfStream)
+                {
                     string[] arrayVendedor = srVendedor.ReadLine().Split(separador);
                     cboVendedor.Items.Add(arrayVendedor[0]);
                 }
@@ -51,12 +54,19 @@ namespace pryRomanisioSP1EPR
 
         private void btnCargar_Click(object sender, EventArgs e)
         {
-            StreamWriter swVentas = new StreamWriter("./Ventas.txt",true);
-            swVentas.WriteLine(cboCliente.Text + "," + cboVendedor.Text + "," + dtpFecha.Text + "," + cboTipoFactura.Text + "," + nudFactura.Text + "," + nudMonto.Text);
-            swVentas.Close();
-            MessageBox.Show("Datos ingresados con exito");
-            nudFactura.Value = 0;
-            nudMonto.Value = 0;
+            if (dtpFecha.Value < DateTime.Today)
+            {
+                StreamWriter swVentas = new StreamWriter("./Ventas.txt", true);
+                swVentas.WriteLine(cboCliente.Text + "," + cboVendedor.Text + "," + dtpFecha.Text + "," + cboTipoFactura.Text + "," + nudFactura.Text + "," + nudMonto.Text);
+                swVentas.Close();
+                MessageBox.Show("Datos ingresados con exito");
+                nudFactura.Value = 0;
+                nudMonto.Value = 0;
+            }
+            else
+            {
+                MessageBox.Show("Ingrese una fecha valida");
+            }
         }
     }
 }

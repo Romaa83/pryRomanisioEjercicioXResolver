@@ -15,3 +15,20 @@ D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmVentas.
 D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmConsultaVendedor.resources
 D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmConsultaClientes.resources
 D:\pryRomanisioSP1EPR\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmConsultaVentas.resources
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\bin\Debug\pryRomanisioSP1EPR.exe.config
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\bin\Debug\pryRomanisioSP1EPR.exe
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\bin\Debug\pryRomanisioSP1EPR.pdb
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.csproj.AssemblyReference.cache
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.csproj.SuggestedBindingRedirects.cache
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmClientes.resources
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmConsultaClientes.resources
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmConsultaVendedor.resources
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmConsultaVentas.resources
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmMenu.resources
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmVendedor.resources
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.frmVentas.resources
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.Properties.Resources.resources
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.csproj.GenerateResource.cache
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.csproj.CoreCompileInputs.cache
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.exe
+C:\Users\Roma\source\repos\nuevo clientes\pryRomanisioSP1EPR\obj\Debug\pryRomanisioSP1EPR.pdb

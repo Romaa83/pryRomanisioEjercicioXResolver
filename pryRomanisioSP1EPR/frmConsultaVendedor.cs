@@ -13,7 +13,7 @@ namespace pryRomanisioSP1EPR
 {
     public partial class frmConsultaVendedor : Form
     {
-        string [,] matConsultaVendedor = new string[5,4];
+        string [,] matConsultaVendedor = new string[100,4];
 
         public frmConsultaVendedor()
         {
