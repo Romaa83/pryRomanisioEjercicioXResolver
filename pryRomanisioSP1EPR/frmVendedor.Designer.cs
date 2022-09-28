@@ -155,6 +155,7 @@
             this.Controls.Add(this.lblIdVendedor);
             this.Name = "frmVendedor";
             this.Text = "Vendedor";
+            this.Load += new System.EventHandler(this.frmVendedor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudIDVendedor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

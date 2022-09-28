@@ -34,8 +34,6 @@ namespace pryRomanisioSP1EPR
             idVendedor = Convert.ToInt32(nudIDVendedor.Text);
             NombreVendedor = txtNombreVendedor.Text;
 
-            StreamWriter swVendedo = new StreamWriter("./Vendedor.txt", true);
-            swVendedo.Close();
 
             switch (cboActivo.Text)
             {
@@ -94,6 +92,12 @@ namespace pryRomanisioSP1EPR
                     MessageBox.Show("Complete todos los datos!");
                 }
             }
+        }
+
+        private void frmVendedor_Load(object sender, EventArgs e)
+        {
+            StreamWriter swVendedo = new StreamWriter("./Vendedor.txt", true);
+            swVendedo.Close();
         }
     }
 }

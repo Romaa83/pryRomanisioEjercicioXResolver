@@ -24,8 +24,7 @@ namespace pryRomanisioSP1EPR
             string varNombreCliente;
             char separador = Convert.ToChar(",");
             bool bandera = false;
-            StreamWriter swClient = new StreamWriter("./cliente.txt", true);
-            swClient.Close();
+           
 
             varIDCliente = Convert.ToInt32(nudIDCliente.Text);
             varNombreCliente = txtNombre.Text;
@@ -66,7 +65,8 @@ namespace pryRomanisioSP1EPR
 
         private void frmClientes_Load(object sender, EventArgs e)
         {
-            
+            StreamWriter swClient = new StreamWriter("./cliente.txt", true);
+            swClient.Close();
         }
     }
 }
